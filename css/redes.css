@@ -1,0 +1,31 @@
+/* DOCUMENTO CSS */
+
+/*
+font-family: 'Comfortaa', cursive;
+font-family: 'Mukta', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+header, div, article, nav, main, footer, aside {box-sizing: border-box; }
+
+* {margin: 0%; padding: 0%; 
+    background-color: black; }
+
+.cabecera {text-align: center; color: whitesmoke; 
+    padding: 30px; font-size: 20px; }
+
+.container {display: flex; width: 50%; 
+    margin: auto; }
+
+a.item {width: 33.33%; min-height: 200px; 
+    text-align: center; font-size: 4em; color: rgba(255, 184, 51, 0.761); }
+
+/* PANTALLAS MAYORES A 600px */
+@media only screen and (min-width: 600px) {
+    a.item {color: antiquewhite; }
+}
+/* PANTALLAS MAYORES A 720px */
+@media only screen and (min-width: 720px) {
+    a.item {color: cyan; }
+    .container {width: 90%; font-size: 3em;}
+}

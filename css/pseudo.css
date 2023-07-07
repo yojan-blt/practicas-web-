@@ -1,0 +1,41 @@
+/* DOCUMENTO CSS */
+
+* {margin: 0%; padding: 0%; }
+
+#productos {width: 100%; min-height: 1px; 
+    background-color: darkseagreen; color: white; 
+    padding: 30px 0px;}
+
+.container {width: 70%; min-height: 1px; 
+    display: flex; margin: 0px auto; }
+
+/* display flex convierte el elemento a un objeto flexible */
+/* margin para centrar */
+
+.item {width: 33.33%; text-align: center; 
+    min-height: 150px; background-image: url(../img/doo\ wops.jpg); 
+    background-size: 100% 100%; }
+
+.item::after {content: "Vendido"; display: block; 
+    width: 100%; padding: 8px; text-transform: uppercase; 
+    margin-top: 95px; transform: rotate(-45deg); color: red; 
+    position: relative; top: -15px; left: 35px; 
+    font-weight: bolder; font-size: xx-large; }
+
+.contenido {padding: 35px; }
+
+.contenido p {line-height: 1.5; }
+
+.contenido p::first-letter {font-size: 2em; float: left; 
+    margin-right: 3px; }
+
+/* ESPECIFICIDAD */
+body section.contenido p {background-color: rgb(252, 230, 35);} 
+
+/* las clases suelen usarse con mayor frecuencia en interfaz, como en formularios o botones */
+/* es recomendable usar los elementos más específicos (id) lo más cerca del body (header, section, footer, etc.). se usa también para animaciones al cancelar las clases */
+
+body {font-family: 'Oswald', sans-serif; font-size: larger; padding: 30px 0px;}
+
+h2 {font-family: 'Mukta', sans-serif; font-size: xx-large; }
+

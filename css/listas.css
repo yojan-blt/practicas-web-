@@ -1,0 +1,28 @@
+/* DOCUMENTO CSS */
+
+* {margin: 0px; padding: 0px;} 
+
+/* body {background: url(../img/bruno-mars.jpg);} */
+
+body {background-color: aliceblue;}
+
+h1 {text-align: center; padding: 20px 0px 20px 0px; 
+    background-color: lightblue; color: white; 
+    text-transform: uppercase; 
+    /*background-image: url(../img/24k.jpg)*/; }
+
+.caja {display: block; width: 90%; 
+    min-height: 1px; margin: 15px auto; 
+    background-color: whitesmoke; padding: 15px 0px 15px 50px; 
+    box-sizing: border-box; }
+
+#rojo {background-color: cornflowerblue; } /*id se escribe con gato (#), se aplica UNA sola vez*/
+
+/* .rojo {background-color: cyan;} */
+
+.ima {margin: auto; display: block; }
+
+.contenido p {padding: 20px 15px; line-height: 1.5; 
+    font-size: 1.3em; }
+
+/* LOS SELECTORES TIENEN NIVEL DE ESPECIFICIDAD */

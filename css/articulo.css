@@ -1,0 +1,23 @@
+/* DOCUMENTO CSS */
+
+* {margin: 0%; padding: 0%; background-color: floralwhite;}
+
+.titulo {text-align: center; padding: 15px 0px; 
+    width: 100%; min-height: 1px; 
+    font-size: larger; background-color: lightskyblue; }
+.l1 {text-transform: uppercase; }
+body main article header h1 {background-color: lightskyblue; 
+    color: white;}
+body main article header h3 {background-color: lightskyblue; 
+    color: white;}
+
+.cita {display: flex; flex-direction: row; flex-wrap: wrap; }
+.cita > div {width: 50%; } /* poner el texto en dos columnas */
+
+.contenido {padding: 35px; font-family: 'Oswald', sans-serif; 
+    font-size: large; }
+
+img {margin: auto; display: block; } 
+
+.pie {text-align: center; font-family: 'Oswald', sans-serif; 
+    font-size: smaller;}

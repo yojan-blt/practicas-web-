@@ -1,0 +1,49 @@
+/* DOCUMENTO CSS */
+
+/*
+font-family: 'Comfortaa', cursive;
+font-family: 'Mukta', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+* {margin: 0%; padding: 0%; background-color: rgb(255, 240, 211); }
+
+header, div, article, nav, main, footer, aside {box-sizing: border-box; }
+
+body header {text-align: center; text-transform: uppercase; 
+    font-size: 20px; padding: 30px; font-family: 'Oswald', sans-serif, bold; 
+    /*background-color: cyan;*/ border-color: gold; color: brown;}
+
+/*
+.in {display: flex; flex-direction: row; flex-wrap: wrap; }
+.in div {width: 50%; }
+*/
+
+.in {display: flex; flex-direction: row; 
+    flex-wrap: wrap; /*align-items: center;*/ }
+.texto {width: 55%; padding-left: 45px; ;} .imagen {width: 31%; }
+
+section a {font-size: large; }
+a {color: deeppink; }
+
+h3 {font-size: 30px; color: coral; 
+    padding: 15px 0px 0px 100px; font-family: 'Comfortaa', sans-serif; }
+h2 {font-size: 20px; color: crimson; 
+    padding: 0px 30px 0px 580px; font-family: 'Comfortaa', sans-serif; }
+    
+.item {width: 95%; padding: 15px 70px; 
+    /*background-color: chartreuse;*/ display: block; 
+    margin: auto; font-family: 'Mukta', sans-serif; }
+
+.item img {margin: auto; display: block; width: 50%; margin-bottom: 15px; }
+
+div.ingre {width: 95%; min-height: 1px; /*background-color: aqua;*/ }
+
+.ingre {display: flex; flex-direction: row; font-family: 'Mukta', sans-serif; 
+    flex-wrap: wrap; padding: 20px 100px; width: 50%; }
+.ingre div {width: 33%; }
+.imging {display: block; width: 100%; height: 100%; }
+    
+footer {text-align: center; font-family: 'Comfortaa', sans-serif; 
+    padding-top: 100px; padding-bottom: 10px; }
+        

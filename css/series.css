@@ -1,0 +1,26 @@
+/* DOCUMENTO CSS */
+
+* {margin: 0%; padding: 0%; background-color: floralwhite; }
+
+header, div, article, nav, main, footer, aside {box-sizing: border-box; }
+
+#galeria {width: 100%; min-height: 1px; }
+
+.container {display: flex; /*background-color: aqua;*/
+    padding: 15px; flex-direction: row; 
+    width: 100%; min-height: 1px; }
+
+.item {width: 33.33%; padding: 0px 30px; }
+
+body header {text-align: center; text-transform: uppercase; 
+    font-size: 20px; padding: 30px; font-family: 'Oswald', sans-serif, bold; }
+
+.item img {margin: auto; display: block; width: 100%; margin-bottom: 15px; }
+
+h3 {text-align: center; font-size: 20px; color: coral; 
+    padding: 10px; font-family: 'Comfortaa', sans-serif; }
+
+.item p {font-family: 'Mukta', sans-serif; }
+
+footer {text-align: center; font-family: 'Comfortaa', sans-serif; 
+    padding-top: 100px; padding-bottom: 10px; }

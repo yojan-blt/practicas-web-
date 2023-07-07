@@ -1,0 +1,10 @@
+/* DOCUMENTO CSS */
+
+.row {display: flex; background-color: aqua; 
+    padding: 10px; border: 2px solid black; 
+    flex-direction: row; flex-wrap: wrap; 
+    justify-content: space-evenly; }
+
+.row div {background-color: bisque; width: 100px; 
+    margin: 10px; text-align: center; line-height: 75px; 
+    font-size: 30px; border: 2px solid black; }

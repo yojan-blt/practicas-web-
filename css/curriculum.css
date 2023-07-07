@@ -1,0 +1,32 @@
+/* DOCUMENTO CSS */
+
+* {margin: 0; padding: 0; }
+
+header, section, article, footer, div, nav, aside, main {box-sizing: border-box; }
+
+.container {padding-left: 35px; }
+section.container div h3 {padding: 10px 20px; }
+
+.cabeza {font-weight: bold; 
+    color: saddlebrown; background-color: navajowhite; 
+    display: flex; flex-direction: row; flex-wrap: wrap; 
+    padding: 10px 50px; position: relative; }
+.cabeza div {width: 40%; }
+.cabeza div img {border-radius: 50%; margin-right: 0%; align-items: end; }
+
+h1 {font-weight: bold; text-transform: uppercase; 
+    font-family: 'Oswald', sans-serif; }
+h2 {font-weight: lighter; font-family: 'Oswald', sans-serif; }
+h3 {font-family: 'Comfortaa', sans-serif; 
+    color: saddlebrown; background-color: rgb(255, 250, 242); }
+div p {font-family: 'Mukta', sans-serif; }
+div li {font-family: 'Mukta', sans-serif; }
+a {color: rgb(255, 191, 96); }
+
+.conedu {display: flex; }
+.conedu div {width: 40%; }
+
+a.item {font-size: 50px; padding: 10px 15px;}
+
+.skills {display: flex; }
+.skills div {width: 40%; }

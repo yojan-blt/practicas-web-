@@ -1,0 +1,17 @@
+/* DOCUMENTO CSS */
+
+* {margin: 0; padding: 0; }
+
+header, section, article, footer, div, nav, aside, main {box-sizing: border-box; }
+
+#galeria {width: 100%; min-height: 1px; }
+
+.container {display: flex; 
+    /* flex-direction: column-reverse; flex-wrap: wrap;  */
+    flex-flow: nowrap; width: 70%; min-height: 1px; 
+    background-color: aquamarine; margin: auto; 
+    padding: 15px; text-align: center; 
+    color: azure; font-size: 2cm;}
+
+.items {width: 33.33%; height: 100px; 
+    background-color: coral; border-radius: 15px; }

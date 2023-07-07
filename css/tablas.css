@@ -1,0 +1,32 @@
+/* DOCUMENTO CSS */
+
+* {margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.cabecera {text-align: center; min-height: 90px; 
+    padding-top: 20px; padding-bottom: 20px; 
+    background-color: brown; color: white; 
+    margin-bottom: 20px; }
+
+h1 {width: 100%; min-height: 1px; 
+    padding-top: 20px; padding-bottom: 20px;
+    background-color: darksalmon; color: brown; 
+    text-transform: uppercase; }
+
+table {background-color: antiquewhite;}
+
+.tablas tr:first-child {margin: 20px auto 10px auto; 
+    background-color:lightcoral; }
+
+/* .tablas tr:nth-child(#) - selección de otro hijo */
+/* .tablas tr:nth-child(odd) - intercambia color */
+
+.video {margin-top: 20px 0px; text-align: center; 
+    display: flex; }
+
+/* esperar pa separar el titulo. SE NECESITA FLEXBOX */
+
+h2 {margin: 20px 0px; text-align: center; }
+
+a:hover {color: red; }
+
+.video div {width: 50%; }
